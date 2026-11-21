@@ -2,7 +2,7 @@
 
 A tiny HTTP proofreading service backed by headless [Claude Code](https://claude.com/claude-code) (`claude -p`), so it runs on a Claude subscription instead of an API key.
 
-It fixes typos, misspellings and punctuation only. It never rephrases, and it never changes letter case. It never adds a final period or question mark.
+It fixes only major errors that make a message hard to understand (badly garbled words, typos that turn into a different word). Minor typos, grammar and punctuation are left alone. It never rephrases, and it never changes letter case.
 
 ## API
 
