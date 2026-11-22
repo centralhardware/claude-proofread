@@ -59,7 +59,7 @@ ARGS = [
     "--setting-sources", "",
     "--disable-slash-commands",
     "--no-session-persistence",
-    "--settings", '{"enabledPlugins":{"telegram@claude-plugins-official":false}}',
+    "--settings", '{"enabledPlugins":{"telegram@claude-plugins-official":false,"telegram@centralhardware-plugins":false}}',
     "--output-format", "json",
 ]
 
